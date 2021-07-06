@@ -1,0 +1,551 @@
+body {
+    font-family: Roboto;
+}
+
+.top {
+    background: #E0E1E2;
+    padding-bottom: 48px;
+}
+
+.top__text-margin {
+    margin-left: 59px;
+    margin-right: 59px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    padding-top: 25px;
+}
+
+.navbar-light .navbar-toggler {
+    position: absolute;
+    right: 28px;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    justify-content: center;
+}
+
+.header__logo_white {
+    display: none;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+    margin-bottom: 0;
+}
+
+.text_margin {
+    margin-left: 34px;
+    margin-right: 33px;
+}
+
+.text_flow {
+    margin-bottom: 16px;
+    text-align: left;
+    width: 224px;
+    list-style-position: inside;
+}
+
+.text_settings {
+    color: #FFFFFF;
+    margin-left: 5px;
+    margin-right: 11px;
+}
+
+.top__img {
+    margin-top: 94px;
+    height: 230px;
+    background-image: url(img/MX-Master\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 67px;
+}
+
+.top__arrow {
+    margin-top: 40px;
+}
+
+.top__svg {
+    width: 42px;
+    height: 22px;
+}
+
+.bluetooth {
+    background: #EDEDED;
+    padding-top: 42px;
+    padding-bottom: 18px;
+}
+
+.bluetooth__icon {
+    margin-bottom: 27px;
+}
+
+.bluetooth__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    margin-top: 31px;
+}
+
+.bluetooth__img {
+    height: 284px;
+    background-image: url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+}
+
+.bluetooth__svg {
+    width: 18px;
+    height: 34px;
+}
+
+.info {
+    padding-top: 70px;
+    padding-bottom: 63px;
+}
+
+.info__content {
+    margin-top: 30px;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.info__item {
+    border: 1px solid #2F3132;
+    flex-basis: 166px;
+    padding-left: 17px;
+    padding-right: 17px;
+    min-height: 94px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info__heading {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #2F3132;
+}
+
+.info__item-heading {
+    margin-bottom: 5px;
+}
+
+.info__text {
+    margin-left: 67px;
+    margin-right: 61px;
+}
+
+.carousel {
+    margin-bottom: 100px;
+}
+
+.flow {
+    padding-top: 70px;
+    padding-bottom: 219px;
+    background: #EDEDED;
+    background-image: url(img/High_Resolution_JPG-MX\ Lifestyle\ 2346\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.flow__list {
+    margin-top: 36px;
+    margin-left: 54px;
+    padding-left: 0;
+}
+
+.settings {
+    background: #EDEDED;
+    padding-top: 70px;
+}
+
+.settings__slider {
+    margin: 35px 25px 95px;
+}
+
+.settings__content {
+    background: #C4C4C4;
+    padding: 23px 22px 26px 29px;
+}
+
+.settings_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.mouse {
+    background: #FFFFFF;
+}
+
+.mouse__text {
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.mouse__img {
+    height: 310px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mouse__img_1 {
+    background-image: url(img/image\ 1.png);
+}
+
+.mouse__img_2 {
+    background-image: url(img/image\ 2.png);
+}
+
+.footer {
+    background: #2F3132;
+    height: 75px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7px;
+    line-height: 8px;
+    text-align: center;
+    color: #C7C8C8;
+    padding-top: 22px;
+}
+
+@media (min-width: 768px) {
+    .top {
+        padding-bottom: 80px;
+    }
+    .header__logo {
+        width: 240px;
+    }
+    .top__img {
+        margin-top: 160px;
+    }
+    .top__img {
+        height: 514px;
+        margin-bottom: 124px;
+    }
+    .navbar {
+        padding-top: 54px;
+    }
+    .heading {
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 30px;
+    }
+    .text {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .text_margin {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+    .top__text-margin {
+        margin-left: 154px;
+        margin-right: 155px;
+    }
+    .top__arrow {
+        margin-top: 76px;
+    }
+    .top__svg {
+        width: 61px;
+        height: 33px;
+    }
+    .bluetooth {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    .bluetooth__svg {
+        width: 22px;
+        height: 40px;
+    }
+    .bluetooth__icon {
+        margin-bottom: 39px;
+    }
+    .bluetooth__heading {
+        margin-top: 76px;
+        font-size: 150px;
+        line-height: 176px;
+    }
+    .bluetooth__img {
+        height: 597px;
+        margin-left: 39px;
+        margin-right: 19px;
+    }
+    .info__text {
+        margin-left: 77px;
+        margin-right: 77px;
+    }
+    .info__content {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+    .info__item {
+        min-height: 170px;
+    }
+    .info__heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .flow {
+        padding-bottom: 496px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .text_flow-p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .flow__list {
+        margin-top: 70px;
+        margin-left: 0;
+        display: flex;
+        list-style-position: inside;
+    }
+    .text_flow {
+        padding: 8px 21px 4px 28px;
+        width: auto;
+        border-left: 1px solid #494949;
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .text_flow:first-child {
+        border-left: none;
+        padding-left: 0;
+    }
+    .text_flow:last-child {
+        padding-right: 0;
+    }
+    .settings {
+        padding-bottom: 70px;
+    }
+    .settings__slider {
+        margin: 54px 198px 150px;
+    }
+    .settings__content {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+    .settings_icons {
+        margin-left: 98px;
+        margin-right: 104px;
+    }
+    .heading_settings {
+        margin-left: 64px;
+        margin-right: 64px;
+    }
+    .text_settings-p {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .text_settings {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .settings__img {
+        height: 35px;
+    }
+    .mouse__text {
+        padding-bottom: 50px;
+        padding-left: 67px;
+        padding-right: 64px;
+    }
+    .heading_mouse {
+        margin-left: 64px;
+        margin-right: 65px;
+    }
+    .text_mouse {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .mouse__img {
+        height: 549px;
+    }
+    .mouse__img_1 {
+        background-image: url(img/image\ 1\ \(1\).png);
+    }
+    .mouse__img_2 {
+        background-image: url(img/image\ 2\ \(1\).png);
+    }
+    .footer {
+        height: 150px;
+        font-size: 14px;
+        line-height: 16px;
+        padding-top: 47px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
+    }
+    .header__logo_dark {
+        display: none;
+    }
+    .header__logo_white {
+        display: block;
+        width: 150px;
+    }
+    .navbar {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .header {
+        background: #2F3132;
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        border-bottom: 1px solid white;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-item {
+        padding-left: 21px;
+        padding-right: 21px;
+        border-right: 1px solid #494949;
+    }
+    .nav-item:first-child {
+        padding-left: 0;
+    }
+    .nav-item:last-child {
+        padding-right: 0;
+        border: none;
+    }
+    .menu-desctop {
+        margin-left: 147px;
+    }
+    .top {
+        padding-bottom: 56px;
+    }
+    .top__img {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        height: 671px;
+        padding-top: 80px;
+    }
+    .text {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .heading {
+        font-size: 36px;
+        line-height: 42px;
+        margin-bottom: 35px;
+    }
+    .top__arrow {
+        margin-top: 49px;
+    }
+    .bluetooth__icon {
+        margin-bottom: 35px;
+    }
+    .bluetooth__img {
+        height: 427px;
+        background: url(img/High_Resolution_PNG-MX\ Master\ 3\ FRONT\ GRAPHITE\ 1.png) no-repeat 0 119px, url(img/High_Resolution_PNG-MX\ Master\ 3\ LEFT\ GRAPHITE\ 1\ \(1\).png) no-repeat right 119px;
+        margin: 0;
+    }
+    .center_bluetooth {
+        padding-left: calc(50% - 622px);
+        padding-right: calc(50% - 622px);
+    }
+    .bluetooth {
+        padding-bottom: 69px;
+    }
+    .bluetooth__heading {
+        font-size: 96px;
+        line-height: 112px;
+        display: flex;
+        justify-content: center;
+    }
+    .bluetooth__heading_day {
+        font-size: 300px;
+        line-height: 352px;
+        padding-left: 74px;
+    }
+    .bluetooth__heading_day-mini {
+        padding-top: 45px;
+    }
+    .info {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .info__text {
+        width: 765px;
+        margin: auto;
+    }
+    .info__item {
+        min-height: 140px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .info__item-heading {
+        margin-bottom: 5px;
+    }
+    .info__slider {
+        padding-left: calc(50% - 640px);
+        padding-right: calc(50% - 640px);
+    }
+}
